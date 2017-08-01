@@ -1,0 +1,1385 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="PacificWalrusCoastalHauloutsDatabase_1852_2016_metadata.xsl"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Fischbach, A.S.</origin>
+        <origin>Kochnev A.A.</origin>
+        <origin>Garlich-Miller, J.M.</origin>
+        <origin>Jay, C.V</origin>
+        <pubdate>201607</pubdate>
+        <title>Pacific Walrus Coastal Haulout Database 1852-2016</title>
+        <edition>1</edition>
+        <geoform>digital data</geoform>
+        <pubinfo>
+          <pubplace>Anchorage, Alaska</pubplace>
+          <publish>U.S. Geological Survey, Alaska Science Center</publish>
+        </pubinfo>
+        <onlink>http://dx.doi.org/10.5066/F7RX994P</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>USGS Alaska Science Center Walrus Research Program</origin>
+            <pubdate>Unknown</pubdate>
+            <title>Understanding and Forecasting the Response of Pacific Walrus Populations to a Diminishing Sea Ice Environment</title>
+            <geoform>website</geoform>
+            <pubinfo>
+              <pubplace>Anchorage, AK</pubplace>
+              <publish>U.S. Geological Survey, Alaska Science Center</publish>
+            </pubinfo>
+            <onlink>http://alaska.usgs.gov/portal/project.php?project_id=96</onlink>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>We summarize available information on Pacific walrus haulouts from available reports, interviews with coastal residents and aviators, and personal observations of the authors.  We provide this in the form of a georeferenced database that may be queried and displayed with standard geographic information system and database management software.  The database contains 150 records of Pacific walrus haulouts, with a summary of basic characteristics on maximum haulout size, age-sex composition, season of use, and decade of most recent use.  Citations to reports are provided as a bibliographic database.</abstract>
+      <purpose>These data were compiled to provide resource managers with a consolidated and comprehensive source of information about location, history and summary characteristics of reported Pacific walrus haulouts throughout their range.</purpose>
+      <supplinf>The database consists of a set of interrelated digital files, including the geographic representation of the haulouts and a bibliographic database of the reports cited for each haulout record.
+The georeferenced component of the database is provided in two digitally accessible forms: one intended for display and query in a Geographic Information System (GIS), and another for display and query in a virtual globe.  The form of the database intended for display and query in a GIS is provided in two file formats: a tabular comma separated value (CSV) file (PacificWalrusHauloutDatabase.csv) and a shape file (PacificWalrusHauloutsDatabaseLinearFeatures.shp).  The CSV file is encoded using the UTF-8 character encoding and can include all fields of the database, including the Cyrillic script field containing Russian language names of the haulouts.  The shape file contains a geographic representation of spatial lines representing haulouts that are depicted as linear features.  Linear features contained in the shape file may be linked back to the full record of the haulout contained within the CSV file based on a key field.  
+The form of the database intended for display and query in a virtual globe is provided as a single keyhole markup language (KML) file (PacificWalrusHauloutDatabase.kml) that contains all points and linear features, including the Cyrillic script field with the Russian language names of the haulouts.  The KML file can be viewed in a virtual globe such as Google Earth (http://www.google.com/earth/), Marble (http://marble.kde.org/), or World Wind (http://worldwind.arc.nasa.gov/java/).  The bibliographic component of the database (the file PacificWalrusHauloutDatabaseBibliography_DS.RIS) provides a listing of all reports cited in the database.  This machine readable bibliographic data file is a complete copy of the citations listed in appendix A of the summary report.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>1852</begdate>
+          <enddate>2016</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <descgeog>The coasts of the Bering, Chukchi, southern Beaufort, and eastern East Siberian Seas</descgeog>
+      <bounding>
+        <westbc>159.908022</westbc>
+        <eastbc>-147.9605</eastbc>
+        <northbc>71.602669</northbc>
+        <southbc>53.26667</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>haulout</themekey>
+        <themekey>coast</themekey>
+        <themekey>Arctic</themekey>
+        <themekey>marine</themekey>
+        <themekey>marine mammals</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO</themekt>
+        <themekey>biota</themekey>
+      </theme>
+      <place>
+        <placekt>Geographic Names Information System</placekt>
+        <placekey>Bering Sea</placekey>
+        <placekey>Chukchi Sea</placekey>
+        <placekey>Beaufort Sea</placekey>
+        <placekey>East Siberian Sea</placekey>
+        <placekey>Russian Far East</placekey>
+        <placekey>Chukotka</placekey>
+        <placekey>Kamchatka</placekey>
+        <placekey>Alaska</placekey>
+        <placekey>Arctic Ocean</placekey>
+        <placekey>Pacific Ocean</placekey>
+      </place>
+      <stratum>
+        <stratkt>None</stratkt>
+        <stratkey>coastal</stratkey>
+        <stratkey>shore</stratkey>
+      </stratum>
+    </keywords>
+    <taxonomy>
+      <keywtax>
+        <taxonkt>Integrated Taxonomic Information System (ITIS)</taxonkt>
+        <taxonkey>Walruses</taxonkey>
+        <taxonkey>Pacific Walruses</taxonkey>
+        <taxonkey>Odobenus rosmarus divergens</taxonkey>
+        <taxonkey>marine mammals</taxonkey>
+        <taxonkey>animals</taxonkey>
+        <taxonkey>mammals</taxonkey>
+        <taxonkey>vertebrates</taxonkey>
+      </keywtax>
+      <taxonsys>
+        <classsys>
+          <classcit>
+            <citeinfo>
+              <origin>Illiger, J. C.</origin>
+              <pubdate>1815</pubdate>
+              <title>Üeberblick der Säugethiere nach ihrer Vertheilung über die Welttheile.  [A review of mammal distribution on a world basis]</title>
+              <geoform>journal article</geoform>
+              <serinfo>
+                <sername>Abhandlung Physkaler Klasse der Koniglich-Pruessische Academie der Wissenschaft</sername>
+                <issue>1804-1811</issue>
+              </serinfo>
+              <pubinfo>
+                <pubplace>Berlin</pubplace>
+                <publish>Königliche Akademie der Wissenschaften zu Berlin</publish>
+              </pubinfo>
+              <othercit>pp 39-159</othercit>
+            </citeinfo>
+          </classcit>
+        </classsys>
+        <taxonpro>Taxonomy of the study species was accepted from the available reports, personal communications and personal observations with the assurance that the only walrus sub-species observed to date within the study area is the Pacific walrus.  Aerial observations of Pacific walrus coastal haulouts were only accepted if the observers clearly indicated that the observations could not be confused with coastal haulouts of sea lions, or harbor and ice seals.</taxonpro>
+        <taxoncom>Polar bears are easily distinguishable from other species by physical characteristics and habitat use patterns.  In most cases, species was confirmed genetically.</taxoncom>
+      </taxonsys>
+      <taxoncl>
+        <taxonrn>Kingdom</taxonrn>
+        <taxonrv>Animalia</taxonrv>
+        <common>animals</common>
+        <taxoncl>
+          <taxonrn>Phylum</taxonrn>
+          <taxonrv>Chordata</taxonrv>
+          <common>chordates</common>
+          <taxoncl>
+            <taxonrn>Subphylum</taxonrn>
+            <taxonrv>Vertebrata</taxonrv>
+            <taxoncl>
+              <taxonrn>Class</taxonrn>
+              <taxonrv>Mammalia</taxonrv>
+              <taxoncl>
+                <taxonrn>Subclass</taxonrn>
+                <taxonrv>Theria</taxonrv>
+                <taxoncl>
+                  <taxonrn>Infraclass</taxonrn>
+                  <taxonrv>Eutheria</taxonrv>
+                  <taxoncl>
+                    <taxonrn>Order</taxonrn>
+                    <taxonrv>Carnivora</taxonrv>
+                    <taxoncl>
+                      <taxonrn>Suborder</taxonrn>
+                      <taxonrv>Caniformia</taxonrv>
+                      <taxoncl>
+                        <taxonrn>Family</taxonrn>
+                        <taxonrv>Odobenidae</taxonrv>
+                        <taxoncl>
+                          <taxonrn>Genus</taxonrn>
+                          <taxonrv>Odobenus</taxonrv>
+                          <common>Walruses</common>
+                          <taxoncl>
+                            <taxonrn>Species</taxonrn>
+                            <taxonrv>Odobenus rosmarus divergens</taxonrv>
+                            <common>Pacific walrus</common>
+                          </taxoncl>
+                        </taxoncl>
+                      </taxoncl>
+                    </taxoncl>
+                  </taxoncl>
+                </taxoncl>
+              </taxoncl>
+            </taxoncl>
+          </taxoncl>
+        </taxoncl>
+      </taxoncl>
+    </taxonomy>
+    <accconst>None</accconst>
+    <useconst>It is requested that the authors and the USGS Alaska Science Center be cited for any subsequent publications that reference this dataset. It is strongly recommended that careful attention be paid to the contents of the metadata file associated with these data to evaluate data set limitations, restrictions or intended use. It is the responsibility of the user to use the data appropriately and consistent with the limitations of the data in general and these data in particular.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey Alaska Science Center</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>4210 University Drive</address>
+          <city>Anchorage</city>
+          <state>AK</state>
+          <postal>99508</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(907) 786-7000</cntvoice>
+        <cntemail>ascweb@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Nikita Platonov, Severtsov Institute of Ecology and Evolution, Russian Academy of Sciences</datacred>
+    <crossref>
+      <citeinfo>
+        <origin>Fischbach, A.S.</origin>
+        <origin>Kochnev, A.A.</origin>
+        <origin>Garlich-Miller, J.L.</origin>
+        <origin>Jay, C.V.</origin>
+        <pubdate>2016</pubdate>
+        <title>Pacific Walrus Coastal Haulout Database, 1852–2016—Background Report</title>
+        <geoform>Peer Reviewed Report</geoform>
+        <serinfo>
+          <sername>Open-File Report</sername>
+          <issue>2016–1108</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Reston, VA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <othercit>27 p.</othercit>
+        <onlink>http://dx.doi.org/10.3133/ofr20161108</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Please refer to the Open File Report (Pacific Walrus Coastal Haulout Database, 1852–2016—Background Report referenced in the cross-reference section of this metadata report) for details on the data collection and compilation effort.</attraccr>
+    </attracc>
+    <logic>Please refer to the Open File Report (Pacific Walrus Coastal Haulout Database, 1852–2016—Background Report referenced in the cross-reference section of this metadata report) for details on the data collection and compilation effort.</logic>
+    <complete>Pacific walrus haulouts information was summarized from available reports, interviews with coastal residents and aviators, and personal observations of the authors. This dataset contains a summary of basic characteristics on maximum haulout size, age-sex composition, season of use, and decade of most recent use.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>We assigned a geographic location to each haulout based on available data sources, and adjusted the location based on publicly available geo-referenced imagery (Digital Globe, Longmont, Colorado, USA, viewed through the virtual digital globe geographical information system Google Earth TM ).  Spatial accuracy varies among the haulout records, but is generally within 5 kilometers of the actual reported haulout location.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <method>
+        <methtype>Scholarly compilation</methtype>
+        <methdesc>Data on Pacific haulout locations and their historical use was compiled from available data sources and entered into a Microsoft Access database.</methdesc>
+      </method>
+      <procstep>
+        <procdesc>We exported a comma separated value file encoded in UTF-8 that contained all fields within the database.  
+We used the plotKML contributed package in r (plotKML v 0.5-6; http://cran.r-project.org/web/packages/plotKML accessed 16 April 2016) to construct a Keyhole Markup Language file from the database with all fields including the Cyrillic script field containing the Russian language names of the haulout locations.  
+We used the ESRI software ArcGIS (v 10.1) to digitize coastal linear features represented haulouts that occurred along an extended coastline.</procdesc>
+        <procdate>Unknown</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Point</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Point</sdtstype>
+        <ptvctcnt>150</ptvctcnt>
+      </sdtsterm>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>18</ptvctcnt>
+      </sdtsterm>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>18</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>0.001</latres>
+        <longres>0.0001</longres>
+        <geogunit>Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>World Geodetic System of 1984</horizdn>
+        <ellips>World Geodetic System of 1984</ellips>
+        <semiaxis>6378137</semiaxis>
+        <denflat>298.25722210088</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>PacificWalrusHauloutDatabase.csv</enttypl>
+        <enttypd>Comma separated value UTF-8 tabulation.  This file contains all fields of the database in tabular format, including both the Latin script and the Cyrillic script fields of the database.  Each record represents a single haulout with details on its geography, history and summary characteristics.</enttypd>
+        <enttypds>The data contents are defined by USGS.  The data structure follows Shafranovich (2005).
+Shafranovich, Y. (2005).   Common Format and MIME Type for Comma-Separated Values (CSV) Files.  The Internet Society, Network Working Group 4180 (https://tools.ietf.org/html/rfc4180)</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>PK</attrlabl>
+        <attrdef>Primary key uniquely identifying each haulout record with an integer value that may be used to link this record to linear features within a GIS context.</attrdef>
+        <attrdefs>Author Defined</attrdefs>
+        <attrdomv>
+          <udom>Domain not known</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Name</attrlabl>
+        <attrdef>Primary name used to reference the haulout in English language reports.</attrdef>
+        <attrdefs>Author Defined</attrdefs>
+        <attrdomv>
+          <udom>Domain not known</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AlternateName</attrlabl>
+        <attrdef>Alternate names used to reference the haulout in English language reports.  Each alternative name is separated by a semi-colon.</attrdef>
+        <attrdefs>Author Defined</attrdefs>
+        <attrdomv>
+          <udom>Domain not known</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RU_Name</attrlabl>
+        <attrdef>Primary names used to reference the haulout in Russian language reports.</attrdef>
+        <attrdefs>Author Defined</attrdefs>
+        <attrdomv>
+          <udom>Domain not known</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Country</attrlabl>
+        <attrdef>Abbreviation of the country on whose shores the haulout is found.</attrdef>
+        <attrdefs>Author Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>RU</edomv>
+            <edomvd>Russian Federation</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>US</edomv>
+            <edomvd>United States of America</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Sea</attrlabl>
+        <attrdef>Name of the sea on which shores the haulout is found.</attrdef>
+        <attrdefs>Author Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Beaufort</edomv>
+            <edomvd>Beaufort Sea</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Bering</edomv>
+            <edomvd>Bering Sea</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Chukchi</edomv>
+            <edomvd>Chukchi Sea</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>East Siberian</edomv>
+            <edomvd>East Siberian Sea</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>North Pacific</edomv>
+            <edomvd>North Pacific Ocean</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Region</attrlabl>
+        <attrdef>Name of the region in which the haulout is found.</attrdef>
+        <attrdefs>Author Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Alaska Peninsula</edomv>
+            <edomvd>Coast extending from the mouth of Naknek River to Cape Sarichef in the south-eastern Bering Sea</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Aleutian Islands</edomv>
+            <edomvd>Islands extending from the Alaska Peninsula out to and including the Commander Islands</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Beaufort Sea</edomv>
+            <edomvd>Coast extending east of Point Barrow</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Bering Strait and Chirikov Basin</edomv>
+            <edomvd>The region north of Saint Lawrence Island encompassing Cape Chaplina, the Bering Strait, and Sledge Island in the northern Bering Sea</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Bristol Bay</edomv>
+            <edomvd>Coast between Cape Newenham and the Naknek River in the south-eastern Bering Sea</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Central Bering Sea</edomv>
+            <edomvd>Coasts of Saint Matthew and Hall Islands in the central Bering Sea</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>East Siberian coast</edomv>
+            <edomvd>Coast west of Long Strait in the eastern East Siberian Sea</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Eastern Chukchi Sea</edomv>
+            <edomvd>Eastern coast of the Chukchi Sea north of Kotzebue Sound</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Gulf of Anadyr</edomv>
+            <edomvd>Coast between Cape Chukotskiy and Cape Navarin in the north-western Bering Sea</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Kamchatka</edomv>
+            <edomvd>Western coast of the Kamchatka Peninsula south of Cape Anana in the south-western Bering Sea and north Pacific Ocean</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Koryak Coast</edomv>
+            <edomvd>Coast of the Koryak mountains between Cape Anana and Cape Navarin in the western Bering Sea</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Kotzebue Sound</edomv>
+            <edomvd>Coast between Cape Krusenstern and Cape Espenberg in the south-eastern Chukchi Sea</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Kuskokwim Bay</edomv>
+            <edomvd>Coast at the mouth of the Kuskokwim River between Cape Newenham and the village of Kipnik</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Norton Sound</edomv>
+            <edomvd>Coast between the mouth of the Yukon River and the town of Nome in the north-eastern Bering Sea</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Nunivak Island</edomv>
+            <edomvd>Coast of Nunivak Island in the eastern Bering Sea</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Pribilof Islands</edomv>
+            <edomvd>Pribilof Islands in the central Bering Sea</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Saint Lawrence Island</edomv>
+            <edomvd>Saint Lawrence and Punuk Islands in the northern Bering Sea</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Western Chukchi Coast</edomv>
+            <edomvd>Russian coast west of the Bering Strait and east of Long Strait in the western Chukchi Sea</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Wrangel Island area</edomv>
+            <edomvd>Coast of Wrangel Island and adjacent islands in the western Chukchi and eastern East Siberian Seas</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Lon</attrlabl>
+        <attrdef>Longitude expressed in decimal degrees east of Greenwich</attrdef>
+        <attrdefs>Author Defined</attrdefs>
+        <attrdomv>
+          <udom>Domain not known</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Lat</attrlabl>
+        <attrdef>Latitude expressed in decimal degrees north of the equator</attrdef>
+        <attrdefs>Author Defined</attrdefs>
+        <attrdomv>
+          <udom>Domain not known</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Notes</attrlabl>
+        <attrdef>Notes describing the haulout location and history of use with citations to original reports, as well as personal communications and observations of the authors</attrdef>
+        <attrdefs>Author Defined</attrdefs>
+        <attrdomv>
+          <udom>Domain not known</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OrderOfLargestUse</attrlabl>
+        <attrdef>Order of magnitude of the maximum number of walruses reported (0 to 5 on the log10 scale, indicating the range from less than 10 to over 100,000)</attrdef>
+        <attrdefs>Author Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>The maximum number of walruses was not reported.</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>Fewer than 10 walruses reported</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>At least 10 and fewer than 100 walruses reported</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>At least 100 and fewer than 1,000 walruses reported</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>At least 1,000 and fewer than 10,000 walruses reported</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>At least 10,000 and fewer than 100,000 walruses reported</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>100,000 walruses or more reported</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LargestUse</attrlabl>
+        <attrdef>Order of magnitude of the maximum number of walruses reported (0 to 5 on the log10 scale, indicating the range from less than 10 to over 100,000)</attrdef>
+        <attrdefs>Author Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Not Reported</edomv>
+            <edomvd>The maximum number of walruses was not reported.</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Fewer than 10 walruses</edomv>
+            <edomvd>Fewer than 10 walruses reported</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>At least 10 and fewer than 100 walruses</edomv>
+            <edomvd>At least 10 and fewer than 100 walruses reported</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>At least 100 and fewer than 1,000 walruses</edomv>
+            <edomvd>At least 100 and fewer than 1,000 walruses reported</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>At least 1,000 and fewer than 10,000 walruses</edomv>
+            <edomvd>At least 1,000 and fewer than 10,000 walruses reported</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>At least 10,000 and fewer than 100,000 walruses</edomv>
+            <edomvd>At least 10,000 and fewer than 100,000 walruses reported</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>more than 100,000 walruses</edomv>
+            <edomvd>100,000 walruses or more reported</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DecadeOfMostRecentReportedUse</attrlabl>
+        <attrdef>The decade of the most recent reported haulout use</attrdef>
+        <attrdefs>Author Defined</attrdefs>
+        <attrdomv>
+          <udom>Domain not known</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>HerdCompositions</attrlabl>
+        <attrdef>The reported composition of walruses using the haulout.</attrdef>
+        <attrdefs>Author Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Predominately males</edomv>
+            <edomvd>Predominately males were reported at the haulout.</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>not reported</edomv>
+            <edomvd>No herd composition is reported for the haulout.</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Mixed age and sex classes</edomv>
+            <edomvd>Both males, adult females and their young are reported at the haulout.</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Predominately females and dependent calves</edomv>
+            <edomvd>Predominately females and dependent calves are reported at the haulout.</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Use_in_Jan_Feb_Mar</attrlabl>
+        <attrdef>Haulout use reported during the months of January through March</attrdef>
+        <attrdefs>Author Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Yes, haulout use was reported during the months of January through March.</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>No, haulout use was not reported during the months of January through March.</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Use_in_Apr_May_Jun</attrlabl>
+        <attrdef>Haulout use reported during the months of April through June</attrdef>
+        <attrdefs>Author Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Yes, haulout use was reported during the months of April through June.</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>No, haulout use was not reported during the months of April through June.</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Use_in_Jul_Aug_Sep</attrlabl>
+        <attrdef>Haulout use reported during the months of July through September</attrdef>
+        <attrdefs>Author Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Yes, haulout use was reported during the months of July through September.</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>No, haulout use was not reported during the months of July through September.</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Use_in_Oct_Nov_Dec</attrlabl>
+        <attrdef>Haulout use reported during the months of October through December</attrdef>
+        <attrdefs>Author Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Yes, haulout use was reported during the months of October through December.</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>No, haulout use was not reported during the months of October through December.</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LinearFeature</attrlabl>
+        <attrdef>Is this haulout described with a linear feature?  Some have repeatedly formed along an extended stretch of coastline and are best presented as a linear geographic feature in addition to a point feature.</attrdef>
+        <attrdefs>Author Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Yes, the haulout is described with a linear feature.</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>No, the haulout is not described with a linear feature.</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>PacificWalrusHauloutsDatabaseLinearFeatures.shp</enttypl>
+        <enttypd>Digital Geographic Information System representation of linear features of haulouts that required a linear feature for their geographic representation.</enttypd>
+        <enttypds>http://www.gdal.org/drv_shapefile.html</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI, also known as Environmental Systems Research Institute founded 1969 in Redlands, California</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI, also known as Environmental Systems Research Institute founded 1969 in Redlands, California</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features in the coordinate system defined for the overall dataset.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Id</attrlabl>
+        <attrdef>Integer identifier used to link linear features to tabular data in the PacificWalrusHauloutDatabase.csv table.</attrdef>
+        <attrdefs>Author Defined</attrdefs>
+        <attrdomv>
+          <udom>Values assigned by data producer during the digitizing of the linear coastal features.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>PacificWalrusHauloutDatabase.KML</enttypl>
+        <enttypd>Keyhole Markup Language file containing all fields of the database in tabular format, including the Cyrillic script field (Русскоеназвание) that contains the Russian language name of the haulout.  Each record represents a single haulout with details on it's geography, history and summary characteristics.  Each haulout is represented as a point, and haulouts that are represented as linear features are also represented with a linear feature within this file.</enttypd>
+        <enttypds>USGS</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>PK</attrlabl>
+        <attrdef>Primary key uniquely identifying each haulout record with an integer value that may be used to link this record to linear features within a GIS context.</attrdef>
+        <attrdefs>Author Defined</attrdefs>
+        <attrdomv>
+          <udom>Domain not known</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Name</attrlabl>
+        <attrdef>Primary name used to reference the haulout in English language reports.</attrdef>
+        <attrdefs>Author Defined</attrdefs>
+        <attrdomv>
+          <udom>Author Defined</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AlternateName</attrlabl>
+        <attrdef>Alternate names used to reference the haulout in English language reports.  Each alternative name is separated by a semi-colon.</attrdef>
+        <attrdefs>Author Defined</attrdefs>
+        <attrdomv>
+          <udom>Author Defined</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Русское название</attrlabl>
+        <attrdef>Primary names used to reference the haulout in Russian language reports.</attrdef>
+        <attrdefs>Author Defined</attrdefs>
+        <attrdomv>
+          <udom>Domain not known</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Country</attrlabl>
+        <attrdef>Abbreviation of the country on whose shores the haulout is found.</attrdef>
+        <attrdefs>Author Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>RU</edomv>
+            <edomvd>Russian Federation</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>US</edomv>
+            <edomvd>United States of America</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Sea</attrlabl>
+        <attrdef>Name of the sea on which shores the haulout is found.</attrdef>
+        <attrdefs>Author Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Beaufort</edomv>
+            <edomvd>Beaufort Sea</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Bering</edomv>
+            <edomvd>Bering Sea</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Chukchi</edomv>
+            <edomvd>Chukchi Sea</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>East Siberian</edomv>
+            <edomvd>East Siberian Sea</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>North Pacific</edomv>
+            <edomvd>North Pacific Ocean</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Region</attrlabl>
+        <attrdef>Name of the region in which the haulout is found.</attrdef>
+        <attrdefs>Author Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Alaska Peninsula</edomv>
+            <edomvd>Coast extending from the mouth of Naknek River to Cape Sarichef in the south-eastern Bering Sea</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Alaska Peninsula</edomv>
+            <edomvd>Coast extending from the mouth of Naknek River to Cape Sarichef in the south-eastern Bering Sea</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Beaufort Sea</edomv>
+            <edomvd>Coast extending east of Point Barrow</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Bering Strait and Chirikov Basin</edomv>
+            <edomvd>The region north of Saint Lawrence Island encompassing Cape Chaplina, the Bering Strait, and Sledge Island in the northern Bering Sea</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Bristol Bay</edomv>
+            <edomvd>Coast between Cape Newenham and the Naknek River in the south-eastern Bering Sea</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Central Bering Sea</edomv>
+            <edomvd>Coasts of Saint Matthew and Hall Islands in the central Bering Sea</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>East Siberian coast</edomv>
+            <edomvd>Coast west of Long Strait in the eastern East Siberian Sea</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Eastern Chukchi Sea</edomv>
+            <edomvd>Eastern coast of the Chukchi Sea north of Kotzebue Sound</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Gulf of Anadyr</edomv>
+            <edomvd>Coast between Cape Chukotskiy and Cape Navarin in the north-western Bering Sea</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Kamchatka</edomv>
+            <edomvd>Western coast of the Kamchatka Peninsula south of Cape Anana in the south-western Bering Sea and north Pacific Ocean</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Koryak Coast</edomv>
+            <edomvd>Coast of the Koryak mountains between Cape Anana and Cape Navarin in the western Bering Sea</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Kotzebue Sound</edomv>
+            <edomvd>Coast between Cape Krusenstern and Cape Espenberg in the south-eastern Chukchi Sea</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Kuskokwim Bay</edomv>
+            <edomvd>Coast at the mouth of the Kuskokwim River between Cape Newenham and the village of Kipnik</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Norton Sound</edomv>
+            <edomvd>Coast between the mouth of the Yukon River and the town of Nome in the north-eastern Bering Sea</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Nunivak Island</edomv>
+            <edomvd>Coast of Nunivak Island in the eastern Bering Sea</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Pribilof Islands</edomv>
+            <edomvd>Pribilof Islands in the central Bering Sea</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Saint Lawrence Island</edomv>
+            <edomvd>Saint Lawrence and Punuk Islands in the northern Bering Sea</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Western Chukchi Coast</edomv>
+            <edomvd>Russian coast west of the Bering Strait and east of Long Strait in the western Chukchi Sea</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Wrangel Island area</edomv>
+            <edomvd>Coast of Wrangel Island and adjacent islands in the western Chukchi and eastern East Siberian Seas</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Lon</attrlabl>
+        <attrdef>Longitude expressed in decimal degrees east of Greenwich</attrdef>
+        <attrdefs>Author Defined</attrdefs>
+        <attrdomv>
+          <udom>Domain not known</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Lat</attrlabl>
+        <attrdef>Latitude expressed in decimal degrees north of the equator</attrdef>
+        <attrdefs>Author Defined</attrdefs>
+        <attrdomv>
+          <udom>Domain not known</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Notes</attrlabl>
+        <attrdef>Notes describing the haulout location and history of use with citations to original reports, as well as personal communications and observations of the authors</attrdef>
+        <attrdefs>Author Defined</attrdefs>
+        <attrdomv>
+          <udom>Domain not known</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OrderOfLargestUse</attrlabl>
+        <attrdef>Order of magnitude of the maximum number of walruses reported (0 to 5 on the log10 scale, indicating the range from less than 10 to over 100,000)</attrdef>
+        <attrdefs>Author Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>The maximum number of walruses was not reported</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>Fewer than 10 walruses reported</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>At least 10 and fewer than 100 walruses reported</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>At least 100 and fewer than 1,000 walruses reported</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>At least 1,000 and fewer than 10,000 walruses reported</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>At least 10,000 and fewer than 100,000 walruses reported</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>100,000 walruses or more reported</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LargestUse</attrlabl>
+        <attrdef>Order of magnitude of the maximum number of walruses reported (0 to 5 on the log10 scale, indicating the range from less than 10 to over 100,000)</attrdef>
+        <attrdefs>Author Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Not Reported</edomv>
+            <edomvd>The maximum number of walruses was not reported.</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Fewer than 10 walruses</edomv>
+            <edomvd>Fewer than 10 walruses reported</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>At least 10 and fewer than 100 walruses</edomv>
+            <edomvd>At least 10 and fewer than 100 walruses reported</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>At least 100 and fewer than 1,000 walruses</edomv>
+            <edomvd>At least 100 and fewer than 1,000 walruses reported</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>At least 1,000 and fewer than 10,000 walruses</edomv>
+            <edomvd>At least 1,000 and fewer than 10,000 walruses reported</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>At least 10,000 and fewer than 100,000 walruses</edomv>
+            <edomvd>At least 10,000 and fewer than 100,000 walruses reported</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>more than 100,000 walruses</edomv>
+            <edomvd>100,000 walruses or more reported</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DecadeOfMostRecentReportedUse</attrlabl>
+        <attrdef>The decade of the most recent reported haulout use</attrdef>
+        <attrdefs>Author Defined</attrdefs>
+        <attrdomv>
+          <udom>Domain not known</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>HerdCompositions</attrlabl>
+        <attrdef>The reported composition of walruses using the haulout</attrdef>
+        <attrdefs>Author Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Predominately males</edomv>
+            <edomvd>Predominately males were reported at the haulout.</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>not reported</edomv>
+            <edomvd>No herd composition is reported for the haulout.</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Mixed age and sex classes</edomv>
+            <edomvd>Both males, adult females and their young are reported at the haulout.</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Predominately females and dependent calves</edomv>
+            <edomvd>Predominately females and dependent calves are reported at the haulout.</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Use_in_Jan_Feb_Mar</attrlabl>
+        <attrdef>Haulout use reported during the months of January through March</attrdef>
+        <attrdefs>Author Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Yes, haulout use was reported during the months of January through March.</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>No, haulout use was not reported during the months of January through March.</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Use_in_Apr_May_Jun</attrlabl>
+        <attrdef>Haulout use reported during the months of April through June</attrdef>
+        <attrdefs>Author Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Yes, haulout use was reported during the months of April through June.</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>No, haulout use was not reported during the months of April through June.</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Use_in_Jul_Aug_Sep</attrlabl>
+        <attrdef>Haulout use reported during the months of July through September</attrdef>
+        <attrdefs>Author Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Yes, haulout use was reported during the months of July through September.</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>No, haulout use was not reported during the months of July through September.</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Use_in_Oct_Nov_Dec</attrlabl>
+        <attrdef>Haulout use reported during the months of October through December</attrdef>
+        <attrdefs>Author Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Yes, haulout use was reported during the months of October through December.</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>No, haulout use was not reported during the months of October through December.</edomvd>
+            <edomvds>Author Defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>PacificWalrusHauloutDatabaseBibliography_DS.RIS</enttypl>
+        <enttypd>Machine readable bibliography of the reports cited in the Pacific Walrus Coastal Haulout Database.  This bibliography contains 151 citations for reports cited in the Pacific Walrus Coastal Haulout Database.  Within the Pacific Walrus Coastal Haulout Database each haulout record includes a narrative summary of reports that mention the haulout along with citations to the reports listed in the bibliography.  This machine readable bibliography is provided to enable the use of the biobliography records in bibliographic managment software; and is a complete copy of the bibliography provided as appendix A to the open file report (USGS OFR 2016-110, http://dx.doi.org/10.3133/ofr20161108). The RIS file format was developed by Research Information Systems, which produced the bibliographic management software Refman, and was later acquired by Thomson ISI ResearchSoft.  The file format and encoding specification for the RIS file is available from Thomson Reuters at http://refman.com/support/risformat_intro.asp and also available through Wikipedia at https://en.wikipedia.org/wiki/RIS_(file_format).</enttypd>
+        <enttypds>Author Defined</enttypds>
+      </enttyp>
+    </detailed>
+    <overview>
+      <eaover>The database consists of a set of interrelated digital files (PacificWalrusHauloutDatabase.csv, PacificWalrusHauloutsDatabaseLinearFeatures.shp, PacificWalrusHauloutDatabase.KML, and PacificWalrusHauloutDatabaseBibliography_DS.RIS). 
+The georeferenced component of the database is provided in two digitally accessible forms: one intended for display and query in a Geographic Information System (GIS), and another for display and query in a virtual globe.  The form of the database intended for display and query in a GIS is provided in two file formats: a tabular comma separated value or CSV file (PacificWalrusHauloutDatabase.csv) and a shape file (PacificWalrusHauloutsDatabaseLinearFeatures.shp). The CSV file is encoded using the UTF-8 character encoding and can include all fields of the database, including the Cyrillic script field containing Russian language names of the haulouts.  The shape file contains a geographic representation of spatial lines representing haulouts that are depicted as linear features.  Linear features contained in the shape file may be linked back to the full record of the haulout contained within the CSV file based on a key field.
+The form of the database intended for display and query in a virtual globe is provided as a single keyhole markup language or KML file (PacificWalrusHauloutDatabase.KML) that contains all points and linear features, including he Cyrillic script field with the Russian language names of the haulouts.  The KML file can be viewed in a virtual globe such as Google Earth (http://www.google.com/earth/), Marble (http://marble.kde.org/), or World Wind (http://worldwind.arc.nasa.gov/java/).
+In addition to the haulout geographic database files, we provided a machine-readable bibliographic file that is a full copy of the references cited in the database (n = 151, PacificWalrusHauloutDatabaseBibliography_DS.RIS).  Bibliographic data management software is required to display and manipulate the citations in the machine readable bibliographic file.  However, a full listing of these references is provided in a standard bibliographic listing format in Appendix A of the USGS Open File Report (USGS OFR 2016-110, http://dx.doi.org/10.3133/ofr20161108).</eaover>
+      <eadetcit>Producer</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey, Alaska Science Center</cntorg>
+        </cntorgp>
+        <cntpos>Data Management</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>4210 University Drive</address>
+          <city>Anchorage</city>
+          <state>AK</state>
+          <postal>99508</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(907)786-7000</cntvoice>
+        <cntemail>ascweb@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>CSV and KML of the U.S. Geological Survey Pacific Walrus Coastal Haulout Database.</resdesc>
+    <distliab>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>CSV,KML,shapefile</formname>
+          <formverd>2015</formverd>
+          <filedec>No compression applied</filedec>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://dx.doi.org/10.5066/F7RX994P</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20160627</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USGS Alaska Science Center</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>4210 University Drive</address>
+          <city>Anchorage</city>
+          <state>AK</state>
+          <postal>99508</postal>
+          <country>United States of America</country>
+        </cntaddr>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>4210 University Drive</address>
+          <city>Anchorage</city>
+          <state>Alaska</state>
+          <postal>99508</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(907) 786-7000</cntvoice>
+        <cntemail>ascweb@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001.1-1999</metstdv>
+  </metainfo>
+</metadata>
