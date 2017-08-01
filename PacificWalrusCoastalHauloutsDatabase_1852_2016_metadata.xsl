@@ -1146,93 +1146,93 @@
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/attrdefs[contains(text(),'Author Defined')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmov</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomv</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomv[contains(text(),'-1')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmovd</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomvd</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomvd[contains(text(),'The maximum number of walruses was not reported.')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmovds</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomvds</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomvds[contains(text(),'Author Defined')]"/></td>
     </tr>
     <!---->
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmov</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomv</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomv[contains(text(),'0')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmovd</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomvd</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomvd[contains(text(),'Fewer than 10 walruses reported')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmovds</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomvds</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomvds[contains(text(),'Author Defined')]"/></td>
     </tr>
     <!---->
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmov</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomv</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomv[contains(text(),'1')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmovd</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomvd</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomvd[contains(text(),'At least 10 and fewer than 100 walruses reported')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmovds</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomvds</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomvds[contains(text(),'Author Defined')]"/></td>
     </tr>
     <!---->
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmov</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomv</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomv[contains(text(),'2')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmovd</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomvd</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomvd[contains(text(),'At least 100 and fewer than 1,000 walruses reported')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmovds</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomvds</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomvds[contains(text(),'Author Defined')]"/></td>
     </tr>
     <!---->
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmov</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomv</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomv[contains(text(),'3')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmovd</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomvd</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomvd[contains(text(),'At least 1,000 and fewer than 10,000 walruses reported')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmovds</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomvds</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomvds[contains(text(),'Author Defined')]"/></td>
     </tr>
     <!---->
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmov</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomv</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomv[contains(text(),'4')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmovd</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomvd</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomvd[contains(text(),'At least 10,000 and fewer than 100,000 walruses reported')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmovds</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomvds</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomvds[contains(text(),'Author Defined')]"/></td>
     </tr>
     <!---->
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmov</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomv</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomv[contains(text(),'5')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmovd</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomvd</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomvd[contains(text(),'100,000 walruses or more reported')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmovds</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomvds</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomvds[contains(text(),'Author Defined')]"/></td>
     </tr>
     <!--LargestUse-->
@@ -1249,7 +1249,7 @@
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/attrdefs[contains(text(),'Author Defined')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmov</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomv</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomv[contains(text(),'Not Reported')]"/></td>
     </tr>
     <tr>
@@ -1275,41 +1275,41 @@
     </tr>
     <!---->
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmov</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomv</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomv[contains(text(),'At least 10 and fewer than 100 walruses')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmovd</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomvd</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomvd[contains(text(),'At least 100 and fewer than 1,000 walruses reported')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmovds</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomvds</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomvds[contains(text(),'Author Defined')]"/></td>
     </tr>
     <!---->
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmov</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomv</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomv[contains(text(),'At least 1,000 and fewer than 10,000 walruses')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmovd</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomvd</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomvd[contains(text(),'At least 1,000 and fewer than 10,000 walruses reported')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmovds</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomvds</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomvds[contains(text(),'Author Defined')]"/></td>
     </tr>
     <!---->
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmov</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomv</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomv[contains(text(),'At least 10,000 and fewer than 100,000 walruses')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmovd</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomvd</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomvd[contains(text(),'100,000 walruses or more reported')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmovds</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomvds</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomvds[contains(text(),'Author Defined')]"/></td>
     </tr>
     <!--DecadeOfMostRecentReportedUse-->
@@ -1339,29 +1339,29 @@
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomv[contains(text(),'Predominately males')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmovd</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomvd</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomvd[contains(text(),'Predominately males were reported at the haulout.')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmovds</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomvds</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomvds[contains(text(),'Author Defined')]"/></td>
     </tr>
     <!---->
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmov</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomv</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomv[contains(text(),'not reported')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmovd</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomvd</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomvd[contains(text(),'No herd composition is reported for the haulout.')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmovds</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomvds</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomvds[contains(text(),'Author Defined')]"/></td>
     </tr>
     <!---->
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmov</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomv</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomv[contains(text(),'Mixed age and sex classes')]"/></td>
     </tr>
     <tr>
@@ -1369,7 +1369,7 @@
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomvd[contains(text(),'Both males, adult females and their young are reported at the haulout.')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmovds</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomvds</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomvds[contains(text(),'Author Defined')]"/></td>
     </tr>
     <!---->
@@ -1378,11 +1378,11 @@
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomv[contains(text(),'Predominately females and dependent calves')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmovd</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomvd</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomvd[contains(text(),'Predominately females and dependent calves are reported at the haulout.')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmovds</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomvds</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomvds[contains(text(),'Author Defined')]"/></td>
     </tr>
     <!--Use_in_Jan_Feb_Mar-->
@@ -1395,28 +1395,28 @@
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/attrdef[contains(text(),'Haulout use reported during the months of January through March')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmov</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomv</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomv[contains(text(),'1')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmovd</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomvd</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomvd[contains(text(),'Yes, haulout use was reported during the months of January through March.')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmovds</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomvds</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomvds[contains(text(),'Author Defined')]"/></td>
     </tr>
     <!---->
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmov</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomv</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomv[contains(text(),'0')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmovd</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomvd</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomvd[contains(text(),'No, haulout use was not reported during the months of January through March.')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmovds</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomvds</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomvds[contains(text(),'Author Defined')]"/></td>
     </tr>
     <!--Use_in_Apr_May_Jun-->
@@ -1429,27 +1429,27 @@
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/attrdef[contains(text(),'Haulout use reported during the months of April through June')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmov</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomv</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomv[contains(text(),'1')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmovd</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomvd</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomvd[contains(text(),'Yes, haulout use was reported during the months of April through June.')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmovds</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomvds</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomvds[contains(text(),'Author Defined')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmov</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomv</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomv[contains(text(),'0')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmovd</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomvd</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomvd[contains(text(),'No, haulout use was not reported during the months of April through June.')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmovds</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomvds</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomvds[contains(text(),'Author Defined')]"/></td>
     </tr>
     <!--Use_in_Jul_Aug_Sep-->
@@ -1462,32 +1462,32 @@
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/attrdef[contains(text(),'Haulout use reported during the months of July through September')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmovds</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomvds</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomvds[contains(text(),'Author Defined')]"/></td>
     </tr>
     <!---->
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmov</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomv</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomv[contains(text(),'1')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmovd</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomvd</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomvd[contains(text(),'Yes, haulout use was reported during the months of April through June.')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmovds</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomvds</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomvds[contains(text(),'Author Defined')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmov</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomv</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomv[contains(text(),'0')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmovd</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomvd</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomvd[contains(text(),'No, haulout use was not reported during the months of April through June.')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmovds</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomvds</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomvds[contains(text(),'Author Defined')]"/></td>
     </tr>
     <!---->
@@ -1505,7 +1505,7 @@
     </tr>
     <!---->
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmov</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomv</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomv[contains(text(),'1')]"/></td>
     </tr>
     <tr>
@@ -1517,15 +1517,15 @@
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomvds[contains(text(),'Author Defined')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmov</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomv</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomv[contains(text(),'0')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmovd</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomvd</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomvd[contains(text(),'No, haulout use was not reported during the months of July through September.')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmovds</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomvds</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomvds[contains(text(),'Author Defined')]"/></td>
     </tr>
     <!--Use_in_Oct_Nov_Dec-->
@@ -1543,27 +1543,27 @@
     </tr>
     <!---->
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmov</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomv</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomv[contains(text(),'1')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmovd</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomvd</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomvd[contains(text(),'Yes, haulout use was reported during the months of October through December.')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmovds</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomvds</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomvds[contains(text(),'Author Defined')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmov</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomv</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomv[contains(text(),'0')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmovd</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomvd</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomvd[contains(text(),'No, haulout use was not reported during the months of October through December.')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmovds</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomvds</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomvds[contains(text(),'Author Defined')]"/></td>
     </tr>
     <!--LinearFeature-->
@@ -1581,27 +1581,27 @@
     </tr>
     <!---->
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmov</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomv</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomv[contains(text(),'1')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmovd</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomvd</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomvd[contains(text(),'Yes, the haulout is described with a linear feature.')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmovds</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomvds</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomvds[contains(text(),'Author Defined')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmov</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomv</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomv[contains(text(),'0')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmovd</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomvd</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomvd[contains(text(),'No, the haulout is not described with a linear feature.')]"/></td>
     </tr>
     <tr>
-      <th width="15%" bgcolor="#daa520"><strong>Edmovds</strong></th>
+      <th width="15%" bgcolor="#daa520"><strong>Edomvds</strong></th>
       <td bgcolor="#d9ffb3"><xsl:value-of select="*/*/*/*/edomvds[contains(text(),'Author Defined')]"/></td>
     </tr>
     <!--PacificWalrusHauloutsDatabaseLinearFeatures.shp-->
